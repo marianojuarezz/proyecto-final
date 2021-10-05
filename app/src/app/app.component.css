@@ -1,0 +1,25 @@
+h1 {
+     /* lamparas montevideo */
+   
+    color: white;
+    padding: 5px 100px;
+    margin: 5px 100px;
+ }
+
+form {
+    
+    margin: 10px;
+}
+
+footer {
+     background-color: black;
+     
+    
+ }
+ #encabezado {
+    background-color: rgb(33,37,41);
+    text-align: center;
+    display: flex;
+    
+ }
+

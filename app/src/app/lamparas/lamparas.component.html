@@ -1,0 +1,15 @@
+<div >
+  <h2>
+    LAMPARAS
+  </h2>
+  <p>
+    ESTOS SON NUESTRAS LAMPARAS DISPONIBLES
+  </p>
+  <div class="row">
+   <div class="col-4" *ngFor="let lampara of lamparas">
+    <app-lampara  [lampara]="lampara"></app-lampara>
+   </div>
+  </div>
+</div>
+
+

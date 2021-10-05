@@ -1,5 +1,41 @@
 {
-    "lamparas" : [{
-        
-    }]
+    "lamparas" : [
+    {
+        "id":"1",
+        "nombre": "Lampara 1 Mimbre",
+        "tipo":"Lampara de Mimbre",
+        "descripcion":"Lampara de techo hecha con mimbre artesanal",
+        "precio":"2310",
+        "imagen":"https://www.nomadbubbles.com/wp-content/uploads/pantalla-lampara-colgante-2.jpg"
+    },
+
+    {
+        "id":"2",
+        "nombre": "Lampara 2 Metelica",
+        "tipo":"Lampara de Metal",
+        "descripcion":"Lampara de techo hecha con acero inoxidable",
+        "precio":"1320",
+        "imagen":"https://cdn.herramientasparatodo.com/wp-content/uploads/2018/07/Las-20-Mejores-L%C3%A1mparas-De-Techo-300x300.jpg"
+    },
+
+    {
+        "id":"3",
+        "nombre": "Lampara 3 Plastico",
+        "tipo":"Lampara de Plastico",
+        "descripcion":"Lampara de techo hecha con plastico reciclado",
+        "precio":"1240",
+        "imagen":"https://cloud10.todocoleccion.online/vintage-iluminacion/tc/2016/01/05/20/53638329.webp"
+    },
+
+    {
+        "id":"4",
+        "nombre": "Autito Rico",
+        "tipo":"Ferrari",
+        "descripcion":"Cuando yo era un mocoso ya queria un Ferrari",
+        "precio":"1.000.000,00",
+        "imagen":"https://www.elcarrocolombiano.com/wp-content/uploads/2020/09/20201609-FERRARI-PORTOFINO-M-PORTADA-01.jpg"
+    }
+
+
+]
 }
