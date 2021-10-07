@@ -1,6 +1,6 @@
 body {
-    background-image: url("https://data.1freewallpapers.com/detail/lamps-lighting-blur.jpg");
-    background-size:cover;
-    background-attachment: fixed;
+    background-image: url("/assets/imagenes/fondo5.jpg");
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

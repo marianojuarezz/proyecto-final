@@ -1,0 +1,14 @@
+div {
+    background-image: url("/assets/imagenes/fondo4.jpg");
+    text-align: center;
+    background-size: cover;
+    
+    
+    
+ }
+ 
+
+form {
+   
+   margin: 10px;
+}
