@@ -1,0 +1,7 @@
+h2 {
+    text-align: center; 
+    color: white; 
+    font-size: 100px; 
+    padding: 200px;
+    text-shadow: 5px 10px 15px rgba(4, 4, 255, 0.583);
+}

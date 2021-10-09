@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { DetalleLamparaComponent } from '../detalle-lampara/detalle-lampara.component';
 
 @Component({
   selector: 'app-lampara',
@@ -7,10 +9,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class LamparaComponent implements OnInit {
 @Input () lampara:any
-  constructor() { }
+  constructor(private modalService : NgbModal) { }
 
   ngOnInit(): void {
-    console.log("!!!!!!!!",this.lampara)
+  
   }
-
+  openModal() {
+    const modalRef = this.modalService.open(DetalleLamparaComponent)}
 }

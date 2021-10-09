@@ -1,16 +1,25 @@
- <div class="card" style="width: 18rem;">
+ <div class="card">
+    <div class="imagen">
       <img src="{{lampara.imagen}}" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">{{lampara.nombre}}</h5>
-        <p class="card-text">{{lampara.descripcion}}</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">{{lampara.tipo}}</li>
-        <li class="list-group-item">${{lampara.precio}}</li>
-      </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Comprar</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
     </div>
-  
+      <div class="card-body">
+        <div class="card-title">
+          <h5>{{lampara.nombre}}</h5>
+        </div>
+        <div class="card-text">
+          <p>{{lampara.descripcion}}</p>
+        </div>
+        <div class="card-text">
+          <p>{{lampara.tipo}}</p>
+        </div>
+        <div class="card-text">
+          <p>${{lampara.precio}}</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a routerLink="/carrito" class="card-link">Comprar</a>
+        <a  (click)="openModal()" class="card-link">Detalles</a>
+      </div>
+    
+    
+    

@@ -1,14 +1,18 @@
-div {
-    background-image: url("/assets/imagenes/fondo4.jpg");
+#div-encabezado {
+   
     text-align: center;
     background-size: cover;
-    
-    
-    
+    color: rgb(225, 180, 1);
+    text-shadow: 0px 0px 15px black;
+    width: 100%;
+  
+ }
+
+ .titulo {
+    margin: 0px 400px;
+ }
+
+ .login-btn {
+     margin-left: 150px;
  }
  
-
-form {
-   
-   margin: 10px;
-}

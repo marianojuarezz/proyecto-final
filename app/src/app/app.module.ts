@@ -12,6 +12,13 @@ import { CarritoComponent } from './carrito/carrito.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { FooterComponent } from './footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './login/login.component';
+import {AccordionModule} from 'primeng/accordion';
+import {MenuItem} from 'primeng/api';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetalleLamparaComponent } from './lamparas/detalle-lampara/detalle-lampara.component';
+import { CarrouselComponent } from './componentes/carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +29,18 @@ import { FooterComponent } from './footer/footer.component';
     CarritoComponent,
     NavbarComponent,
     EncabezadoComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    DetalleLamparaComponent,
+    CarrouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

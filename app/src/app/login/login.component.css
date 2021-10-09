@@ -1,0 +1,17 @@
+.container {
+    background-image: url("/assets/imagenes/fondo4.jpg");
+    display: block;
+    color: rgb(225, 180, 1);;
+    
+}
+ .form-group {
+     padding: 5px;
+ }
+
+ button {
+     margin: 10px;
+ }
+
+
+
+
