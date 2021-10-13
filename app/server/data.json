@@ -1,41 +1,44 @@
 {
-    "lamparas" : [
+  "lamparas": [
     {
-        "id":"1",
-        "nombre": "Lampara 1 Mimbre",
-        "tipo":"Lampara de Mimbre",
-        "descripcion":"Lampara de techo hecha con mimbre artesanal",
-        "precio":"2310",
-        "imagen":"/assets/imagenes/lampara1.png"
+      "id": "1",
+      "nombre": "Lampara 1 Mimbre",
+      "tipo": "Lampara de Mimbre",
+      "descripcion": "Lampara de techo hecha con mimbre artesanal",
+      "precio": "2310",
+      "imagen": "/assets/imagenes/lampara1.png"
     },
-
     {
-        "id":"2",
-        "nombre": "Lampara 2 Metelica",
-        "tipo":"Lampara de Metal",
-        "descripcion":"Lampara de techo hecha con acero inoxidable",
-        "precio":"1320",
-        "imagen":"/assets/imagenes/lampara2.png"
+      "id": "2",
+      "nombre": "Lampara 2 Metelica",
+      "tipo": "Lampara de Metal",
+      "descripcion": "Lampara de techo hecha con acero inoxidable",
+      "precio": "1320",
+      "imagen": "/assets/imagenes/lampara2.png"
     },
-
     {
-        "id":"3",
-        "nombre": "Lampara 3 Plastico",
-        "tipo":"Lampara de Plastico",
-        "descripcion":"Lampara de techo hecha con plastico reciclado",
-        "precio":"1240",
-        "imagen":"/assets/imagenes/lampara3.png"
+      "id": "3",
+      "nombre": "Lampara 3 Plastico",
+      "tipo": "Lampara de Plastico",
+      "descripcion": "Lampara de techo hecha con plastico reciclado",
+      "precio": "1240",
+      "imagen": "/assets/imagenes/lampara3.png"
     },
-
     {
-        "id":"4",
-        "nombre": "Autito Rico",
-        "tipo":"Ferrari",
-        "descripcion":"Cuando yo era un mocoso ya queria un Ferrari",
-        "precio":"457645765",
-        "imagen":"/assets/imagenes/lampara4.png"
+      "id": "4",
+      "nombre": "Lampara 4",
+      "tipo": "Ferrari",
+      "descripcion": "Lampara 4",
+      "precio": "4505",
+      "imagen": "/assets/imagenes/lampara4.png"
+    },
+    {
+      "id": "5",
+      "nombre": "",
+      "tipo": "",
+      "descripcion": "",
+      "precio": "",
+      "imagen": ""
     }
-
-
-]
+  ]
 }

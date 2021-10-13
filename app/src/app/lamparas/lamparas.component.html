@@ -1,10 +1,14 @@
-<div >
+<div class="contenedor" >
   <h2>
     LAMPARAS
   </h2>
   <p>
     ESTOS SON NUESTRAS LAMPARAS DISPONIBLES
   </p>
+  <form>
+    <input  class="input" type="search" placeholder="Buscar...">
+   <button  class="button" type="submit">Search</button>
+ </form>
   <div class="row">
    <div class="col-4" *ngFor="let lampara of lamparas">
     <app-lampara  [lampara]="lampara"></app-lampara>

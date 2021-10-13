@@ -1,0 +1,55 @@
+.container {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+.form-control {
+    width: 400px;
+    display: inline;
+    margin: 20px;
+}
+
+.tabla-productos {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+th {
+ color: white; 
+ border-color: yellow;  
+}
+
+td {
+    color: white;
+    border-color: yellow;
+}
+
+img {
+    width:200px ;
+    height: 100px; ;
+}
+
+.tabla-productos {
+    background: url("/assets/imagenes/fondo4.jpg");
+    background-position: fixed;
+}
+
+.table-item {
+    text-align: center;
+}
+
+
+.table-body {
+    width: 20%;
+    text-align: center;
+    border-color: yellow;
+}
+
+.button {
+    background:black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-color: yellow;
+    color: white;
+}

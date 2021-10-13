@@ -1,0 +1,44 @@
+<div class="container">
+    <h3>Gestion Listado de Productos</h3> 
+<div>
+    <div>
+        <div>
+            <form>
+                <div class="form-group form-inline">
+                    <input class="form-control" type="text"/><button  class="button" type="submit">Buscar</button>
+                    <button  class="button" (click)="openModal(lampara)" type="submit">+ Crear</button>
+                </div>
+              </form>
+        </div>
+        
+        <div class="tabla-productos">
+            <table class="table table-striped">
+                <thead>
+                <tr class="table-head">
+                  <th class="table-body"  scope="col">Imagen</th>
+                  <th class="table-body" scope="col">Nombre</th>
+                  <th class="table-body"  scope="col">Tipo</th>
+                  <th class="table-body"  scope="col">Precio</th>
+                  <th class="table-body"  scope="col">.</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let lampara of lamparas">
+                  <th scope="row"><img src="{{lampara.imagen}}" alt=""></th>
+                    <td class="table-item">{{lampara.nombre}}</td>
+                    <td class="table-item">{{lampara.tipo}}</td>
+                    <td class="table-item">${{lampara.precio}}</td>
+                    <td class="table-item">
+                        <button  class="button" (click)="openModal(lampara)" type="submit">Editar</button>
+                        <button  class="button"  type="submit">Eliminar</button>
+                        <!-- (click)="eliminarProd(id)" -->
+                    </td>
+                </tr>
+                </tbody>
+              </table>
+          </div>
+    </div>
+</div>
+</div>
+

@@ -1,7 +1,7 @@
 body {
-    background-image: url("/assets/imagenes/fondo5.jpg");
+    background: linear-gradient(black,blue,#e52e71, #ff8a00,  white);
     color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
+    
 }
 

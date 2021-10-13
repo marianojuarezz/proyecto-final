@@ -4,6 +4,7 @@ import { LamparasComponent } from './lamparas/lamparas.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { CarritoComponent } from './carrito/carrito.component';
+import { ProductosComponent } from './gestiones/crud/productos/productos.component';
 const routes: Routes = [
   
     {
@@ -19,7 +20,14 @@ const routes: Routes = [
   {
     path : 'carrito',
     component : CarritoComponent
+  },
+ 
+  {
+    path : 'gestiones/crud/productos',
+    component : ProductosComponent
   }
+
+
 ]
 
 

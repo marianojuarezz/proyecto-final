@@ -19,6 +19,8 @@ import {MenuItem} from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetalleLamparaComponent } from './lamparas/detalle-lampara/detalle-lampara.component';
 import { CarrouselComponent } from './componentes/carrousel/carrousel.component';
+import { ProductosComponent } from './gestiones/crud/productos/productos.component';
+import { NewProductComponent } from './gestiones/crud/new-product/new-product.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,9 @@ import { CarrouselComponent } from './componentes/carrousel/carrousel.component'
     LoginComponent,
     DetalleLamparaComponent,
     CarrouselComponent,
+    
+    ProductosComponent,
+          NewProductComponent,
   ],
   imports: [
     BrowserModule,
