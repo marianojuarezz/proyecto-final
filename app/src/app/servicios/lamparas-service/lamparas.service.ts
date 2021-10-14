@@ -17,7 +17,7 @@ export class LamparasService {
      return this._http.post(this.url,lampara);
    }
 
-   deleteLampara(id:number){
+   deleteLampara(id:any){
      return this._http.delete(this.url+"/"+id);
    }
 
@@ -25,7 +25,7 @@ export class LamparasService {
      return this._http.put(this.url+"/"+lampara.id,lampara);
    }
 
-   getById (id:number){
+   getById (id:any){
      return this._http.get(this.url + "/" + id);
    }
 }

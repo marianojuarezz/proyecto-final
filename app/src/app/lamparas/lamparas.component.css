@@ -1,9 +1,15 @@
-h2,p{
-    color: white;
+h2{
+    color: #e52e71
+}
+
+p{
+    color: #e52e71;
+    font-family: 'Lato', sans-serif;
 }
 
 .contenedor {
     padding: 20px;
+    text-align: center;
 }
 
 .input {
@@ -16,10 +22,11 @@ h2,p{
 }
 
 .button {
-    background: transparent;
+    background: linear-gradient(#ff8a00, #e52e71);
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
     border-color: black;
     color: white;
+    text-shadow: 3px 3px 7px black;
 }

@@ -1,7 +1,42 @@
+.container {
+    display: flex;
+    margin: 30px;
+}
+
 h2 {
     text-align: center; 
     color: white; 
-    font-size: 100px; 
-    padding: 200px;
-    text-shadow: 5px 10px 15px rgba(4, 4, 255, 0.583);
+    font-size: 70px; 
+    text-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+
+h4 {
+    margin: 10px;
+    
+}
+
+.accordion {
+    margin: 10px;
+}
+
+.titulo {
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background: linear-gradient(#ff8a00, #e52e71);
+    padding: 50px;
+    max-width: min-content;
+    margin: 10px;
+}
+
+.relleno {
+width: 100%;
+text-align: center;
+/* display: flex; */
+margin: 10px;
+}
+
+.accordion-body {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-stretch: condensed;
 }

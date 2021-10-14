@@ -31,7 +31,10 @@ id : any;
 
    eliminarProd(id:any) {
     this.lamparaService.deleteLampara(id).subscribe(response =>{
-      this.lampara.id = id;
+      let newProducts = this.lamparas.filter((item: { id: any; }) =>{
+        return item.id !== id
+      })
+      this.lamparas = newProducts;
       
     })
   }
