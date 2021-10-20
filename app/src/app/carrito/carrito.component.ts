@@ -6,10 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carrito.component.css']
 })
 export class CarritoComponent implements OnInit {
-
+  lampara = {
+    id:0,
+   nombre: "",
+   tipo:"",
+   descripcion:"",
+   precio:"",
+   imagen:""
+};
   constructor() { }
 
   ngOnInit(): void {
   }
+  eliminarProd() {
 
+  };
+
+  agregar() {
+
+  };
+
+  quitar() {
+    
+  };
 }

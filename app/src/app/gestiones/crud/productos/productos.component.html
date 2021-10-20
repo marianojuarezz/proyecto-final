@@ -5,7 +5,8 @@
         <div>
             <form>
                 <div class="form-group form-inline">
-                    <input class="form-control" type="text"/><button  class="button" type="submit">Buscar</button>
+                    <input class="form-control" (input)="handlerInput($event)" name="busqueda" [(ngModel)]="busqueda" type="text"/>
+                    <button  class="button" (click)="filtrar()" type="submit">Buscar</button>
                     <button  class="button" (click)="openModal(lampara)" type="submit">+ Crear</button>
                 </div>
               </form>

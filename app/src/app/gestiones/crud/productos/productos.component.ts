@@ -19,14 +19,20 @@ export class ProductosComponent implements OnInit {
 };
 
 lamparas:any;
-
+busqueda = "";
+backup : any;
 id : any;
+event: any
   constructor(private lamparaService : LamparasService, private modalService : NgbModal) { }
 
   ngOnInit(): void {
     this.lamparaService.getLamparas().subscribe(response =>{
       this.lamparas = response;
-    })
+      this.backup = response;
+      
+      //filtro de backup, y actualizo lamparas
+
+    });
   }
 
    eliminarProd(id:any) {
@@ -42,6 +48,24 @@ id : any;
   openModal(lampara:any){
   const modalRef = this.modalService.open(NewProductComponent)
   modalRef.componentInstance.lampara = lampara;
+  }
 
+
+  filtrar() {
+    let newProducts = this.lamparas.filter((lampara: { nombre: any; }) =>{
+      return lampara.nombre.toLowerCase().includes(this.busqueda.toLowerCase()) === true
+    })
+    this.lamparas = newProducts;
+    console.log("NEW PRODUCTS",newProducts)
+  };
+
+
+
+
+  handlerInput(event:any){
+    if(event.target.value.length === 0){
+      this.lamparas = this.backup;
+    }
   }
 }
+ 

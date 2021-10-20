@@ -21,6 +21,7 @@ import { DetalleLamparaComponent } from './lamparas/detalle-lampara/detalle-lamp
 import { CarrouselComponent } from './componentes/carrousel/carrousel.component';
 import { ProductosComponent } from './gestiones/crud/productos/productos.component';
 import { NewProductComponent } from './gestiones/crud/new-product/new-product.component';
+import { NotFound404Component } from './not-found404/not-found404.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { NewProductComponent } from './gestiones/crud/new-product/new-product.co
     
     ProductosComponent,
           NewProductComponent,
+          NotFound404Component,
   ],
   imports: [
     BrowserModule,

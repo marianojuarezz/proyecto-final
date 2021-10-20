@@ -5,32 +5,95 @@
       "nombre": "Lampara 1 Mimbre",
       "tipo": "Lampara de Mimbre",
       "descripcion": "Lampara de techo hecha con mimbre artesanal",
-      "precio": "2310",
-      "imagen": "/assets/imagenes/lampara1.png"
+      "precio": "2300",
+      "imagen": "/assets/imagenes/lampara1.png",
+      "medidas": "80cm de alto x 30cm de ancho"
     },
     {
       "id": "2",
       "nombre": "Lampara 2 Metelica",
       "tipo": "Lampara de Metal",
       "descripcion": "Lampara de techo hecha con acero inoxidable",
-      "precio": "1320",
-      "imagen": "/assets/imagenes/lampara2.png"
+      "precio": "1300",
+      "imagen": "/assets/imagenes/lampara2.png",
+      "medidas": "80cm de alto x 30cm de ancho"
     },
     {
       "id": "3",
       "nombre": "Lampara 3 Plastico",
       "tipo": "Lampara de Plastico",
-      "descripcion": "Lampara de techo hecha con plastico reciclado",
-      "precio": "1240",
-      "imagen": "/assets/imagenes/lampara3.png"
+      "descripcion": "Lampara de techo hecha con platicos reciclados",
+      "precio": "5300",
+      "imagen": "/assets/imagenes/lampara3.png",
+      "medidas": "80cm de alto x 30cm de ancho"
     },
     {
       "id": "4",
-      "nombre": "Lampara 4",
-      "tipo": "Lampara",
+      "nombre": "Lampara 4 de Metal",
+      "tipo": "Lampara de Metal",
       "descripcion": "Lampara 4",
-      "precio": "4505",
-      "imagen": "/assets/imagenes/lampara4.png"
+      "precio": "4500",
+      "imagen": "/assets/imagenes/lampara4.png",
+      "medidas": "80cm de alto x 30cm de ancho"
+    },
+    {
+      "id": "5",
+      "nombre": "Lampara 5",
+      "tipo": "Lampara Metalica",
+      "descripcion": "Lampara de Metal acero inoxidable",
+      "precio": "3400",
+      "imagen": "/assets/imagenes/lampara2.png",
+      "medidas": "80cm de alto x 30cm de ancho"
+    },
+    {
+      "id": "6",
+      "nombre": "Lampara 6",
+      "tipo": "Lampara plastico",
+      "descripcion": "Lampara de Plastico",
+      "precio": "1200",
+      "imagen": "/assets/imagenes/lampara1.png",
+      "medidas": "80cm de alto x 30cm de ancho"
+    },
+    {
+      "id": "7",
+      "nombre": "Lampara 7",
+      "tipo": "Lampara Metalica",
+      "descripcion": "Lampara de Metal",
+      "precio": "3400",
+      "imagen": "/assets/imagenes/lampara1.png",
+      "medidas": "80cm de alto x 30cm de ancho"
+    },
+    {
+      "id": "8",
+      "nombre": "Lampara 8",
+      "tipo": "Lampara Metalica",
+      "descripcion": "Lampara de Metal",
+      "precio": "3900",
+      "imagen": "/assets/imagenes/lampara1.png",
+      "medidas": "80cm de alto x 30cm de ancho"
+    },
+    {
+      "id": "9",
+      "nombre": "Lampara 9",
+      "tipo": "Lampara Metalica",
+      "descripcion": "Lampara de Metal ligero",
+      "precio": "3400",
+      "imagen": "/assets/imagenes/lampara1.png",
+      "medidas": "80cm de alto x 30cm de ancho"
     }
-  ]
+  ],
+
+  "clientes" : [
+  {
+    "id" : "1",
+    "nombre" : "Jorgito",
+    "apellido" : "Perez",
+    "telefono" : "091274381"
+  }
+]
+
+
+
+
+  
 }
