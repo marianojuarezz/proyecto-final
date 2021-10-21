@@ -11,7 +11,7 @@
     },
     {
       "id": "2",
-      "nombre": "Lampara 2 Metelica",
+      "nombre": "Lampara 2 Metalica",
       "tipo": "Lampara de Metal",
       "descripcion": "Lampara de techo hecha con acero inoxidable",
       "precio": "1300",
@@ -82,18 +82,12 @@
       "medidas": "80cm de alto x 30cm de ancho"
     }
   ],
-
-  "clientes" : [
-  {
-    "id" : "1",
-    "nombre" : "Jorgito",
-    "apellido" : "Perez",
-    "telefono" : "091274381"
-  }
-]
-
-
-
-
-  
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Jorgito",
+      "apellido": "Perez",
+      "telefono": "091274381"
+    }
+  ]
 }

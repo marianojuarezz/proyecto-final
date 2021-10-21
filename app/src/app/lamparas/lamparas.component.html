@@ -6,8 +6,8 @@
     ESTOS SON NUESTRAS LAMPARAS DISPONIBLES
   </p>
   <form>
-    <input  class="input" type="search" placeholder="Buscar...">
-   <button  class="button" type="submit">Search</button>
+    <input  class="input" (input)="handlerInput($event)" name="busqueda" [(ngModel)]="busqueda" type="search" placeholder="Buscar...">
+   <button  class="button" (click)="filtrar()" type="submit">Search</button>
  </form>
   <div class="row">
    <div class="col-4" *ngFor="let lampara of lamparas">

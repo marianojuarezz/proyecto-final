@@ -22,6 +22,8 @@ import { CarrouselComponent } from './componentes/carrousel/carrousel.component'
 import { ProductosComponent } from './gestiones/crud/productos/productos.component';
 import { NewProductComponent } from './gestiones/crud/new-product/new-product.component';
 import { NotFound404Component } from './not-found404/not-found404.component';
+import { CheckOutComponent } from './check-out/check-out.component';
+import { GraciasPorSucompraComponent } from './gracias-por-sucompra/gracias-por-sucompra.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { NotFound404Component } from './not-found404/not-found404.component';
     ProductosComponent,
           NewProductComponent,
           NotFound404Component,
+          CheckOutComponent,
+          GraciasPorSucompraComponent,
   ],
   imports: [
     BrowserModule,

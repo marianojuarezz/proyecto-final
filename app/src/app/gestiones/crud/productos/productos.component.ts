@@ -56,7 +56,7 @@ event: any
       return lampara.nombre.toLowerCase().includes(this.busqueda.toLowerCase()) === true
     })
     this.lamparas = newProducts;
-    console.log("NEW PRODUCTS",newProducts)
+    
   };
 
 

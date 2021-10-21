@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { CheckOutComponent } from '../check-out/check-out.component';
 
 @Component({
   selector: 'app-carrito',
@@ -14,7 +16,7 @@ export class CarritoComponent implements OnInit {
    precio:"",
    imagen:""
 };
-  constructor() { }
+  constructor(private modalService : NgbModal) { }
 
   ngOnInit(): void {
   }
@@ -29,4 +31,8 @@ export class CarritoComponent implements OnInit {
   quitar() {
     
   };
+
+  openModal() {
+    this.modalService.open(CheckOutComponent)
+  }
 }
