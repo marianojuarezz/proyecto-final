@@ -15,18 +15,21 @@
                 </tr>
                 </thead>
                 <tbody>
-                    <tr ngfor>
-                        <th scope="row"><img src="{{lampara.imagen}}" alt=""></th>
-                        <td class="table-item">{{lampara.nombre}}</td>
+                    <tr *ngFor="let producto of cartProduct">
+                        <th scope="row"><img src="{{producto.imagen}}" style="width: 50px; height: 50px;" alt=""></th>
+                        <td class="table-item">{{producto.nombre}}</td>
                         <td>
-                            <button (click)="agregar()">+</button>
-                            <input class="input-cantidad" type="text">
-                            <button (click)="quitar()">-</button>
+                            <button (click)="agregar(producto)">+</button>
+                            <input [value]="producto.cantidad"  class="input-cantidad" type="text">
+                            <button (click)="quitar(producto)">-</button>
                         </td>
-                        <td class="table-item">{{lampara.tipo}}</td>
-                        <td class="table-item">${{lampara.precio}}</td>
-                        <td><button  class="button" (click)="eliminarProd()"  type="submit"> - </button></td>
+                        <td class="table-item">{{producto.tipo}}</td>
+                        <td class="table-item">${{producto.precio}}</td>
+                        <td><button  class="button" (click)="cancelarProd(producto)" type="submit"> - </button></td>
                     </tr>
+                    <div id="total">
+                        <h6>Total: $ {{total}} </h6>
+                    </div>
                 </tbody>
         </table>
         <button (click)="openModal()">Finalizar compra!</button>

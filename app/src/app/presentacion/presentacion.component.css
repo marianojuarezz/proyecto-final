@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    margin: 30px;
+    margin: 10px;
 }
 
 h2 {
@@ -15,9 +15,7 @@ h4 {
     
 }
 
-.accordion {
-    margin: 10px;
-}
+
 
 .titulo {
     border-bottom-left-radius: 30%;

@@ -11,7 +11,7 @@ import { LamparasService } from 'src/app/servicios/lamparas-service/lamparas.ser
 export class NewProductComponent implements OnInit {
 @Input() lampara:any
   
-
+title = "";
 id= 0;
   constructor(private productoService : LamparasService,
               private route: ActivatedRoute,

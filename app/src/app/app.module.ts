@@ -24,6 +24,10 @@ import { NewProductComponent } from './gestiones/crud/new-product/new-product.co
 import { NotFound404Component } from './not-found404/not-found404.component';
 import { CheckOutComponent } from './check-out/check-out.component';
 import { GraciasPorSucompraComponent } from './gracias-por-sucompra/gracias-por-sucompra.component';
+import { ClientesComponent } from './gestiones/crud/clientes/clientes.component';
+import { NewClientComponent } from './gestiones/crud/new-client/new-client.component';
+import { ToastsContainer } from './componentes/toast/toast/toast.component';
+
 
 @NgModule({
   declarations: [
@@ -37,13 +41,16 @@ import { GraciasPorSucompraComponent } from './gracias-por-sucompra/gracias-por-
     FooterComponent,
     LoginComponent,
     DetalleLamparaComponent,
-    CarrouselComponent,
-    
+    CarrouselComponent,    
     ProductosComponent,
-          NewProductComponent,
-          NotFound404Component,
-          CheckOutComponent,
-          GraciasPorSucompraComponent,
+    NewProductComponent,
+    NotFound404Component,
+    CheckOutComponent,
+    GraciasPorSucompraComponent,
+    ClientesComponent,
+    NewClientComponent,
+    ToastsContainer
+
   ],
   imports: [
     BrowserModule,
@@ -51,7 +58,7 @@ import { GraciasPorSucompraComponent } from './gracias-por-sucompra/gracias-por-
     FormsModule,
     HttpClientModule,
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -34,5 +34,7 @@ busqueda : any;
     if(event.target.value.length === 0){
       this.lamparas = this.backup;
     }
-  }
+  };
+
+  
 }
